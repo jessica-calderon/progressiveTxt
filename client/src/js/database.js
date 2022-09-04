@@ -12,7 +12,6 @@ openDB('txtEditor', 1, {
   },
 });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
 export const putDb = async (content) => {
   console.log('PUT request to update the database 📈');
   // connect to database
@@ -26,7 +25,6 @@ export const putDb = async (content) => {
   console.log('Data saved successfully 📈', res);
 };
 
-// TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
   console.log('Getting data from the database 📈');
   // connect to database
